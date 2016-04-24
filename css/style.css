@@ -135,8 +135,8 @@ a:hover, a:active {
     background-color: white;
     color: black;
     padding: 0;
-    margin: 24px 12px 24px 12px;
-    top: -6px;
+    margin: 24px 1px;
+    top: -9px;
     left: 13%;
     font-size: 0.8rem;
     border: 0px solid #000000;
