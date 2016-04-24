@@ -14,7 +14,7 @@ header{
 }
 
 h1{
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	padding: 24px 36px 24px 36px;
 	margin: 12px 24px 12px 24px;
 	text-align: right;
@@ -22,7 +22,7 @@ h1{
 }
 
 h2{
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin: 0px 0px 0px 12px;
 	display: inline-block;
 	font-weight: 600;
@@ -31,6 +31,7 @@ h2{
 h3{
 	font-size: 1.5rem;
 	font-weight: 600;
+	padding: 10px 0 5px;
 
 }
 section{
@@ -42,12 +43,18 @@ section{
 
 }
 
+.program{
+	width: 90%;
+
+}
+
 footer{
 	text-align: right;
   margin: 0 auto;
   background: white;
   height: 54px;
-  width: 80%
+
+	color: grey;
 }
 
 footer p{
@@ -58,6 +65,11 @@ a{
 	text-decoration: none;
 	color: black;
 
+}
+
+ul {
+    list-style: none;
+    margin-top: 10px;
 }
 
 a:hover, a:active {
@@ -73,6 +85,7 @@ a:hover, a:active {
 /*Блок программы*/
 
 .single-program{
+	vertical-align: top;
 	display: inline-block;
 	margin: 30px 12px 30px 12px;
 	background: white;
@@ -80,9 +93,11 @@ a:hover, a:active {
 	min-width: 256px;
 }
 
-.single-program li{
-	margin-top: 6px;
+.single-program li {
+    margin-bottom: 8px;
+    line-height: 1em;
 }
+
 
 .s-detail{
 	margin: 0px 0px 6px 0px;
@@ -118,20 +133,22 @@ a:hover, a:active {
     position: absolute;
     z-index: 1;
     width: 256px;
-    background-color: #eee;
+    background-color: white;
     color: black;
     padding: 0;
     margin: 24px 12px 24px 12px;
     top: -6px;
-    left: 20%;
+    left: 13%;
     font-size: 0.8rem;
-		border: 0px solid #000000;
-		-webkit-box-shadow: 0px 2px 14px -4px rgba(0,0,0,0.6);
-		-moz-box-shadow: 0px 2px 14px -4px rgba(0,0,0,0.6);
-		box-shadow: 0px 2px 14px -4px rgba(0,0,0,0.6);
+    border: 0px solid #000000;
+    -webkit-box-shadow: 0px 2px 14px -4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 14px -4px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 14px -4px rgba(0,0,0,0.6);
+    cursor: default;
 }
 .section-detail{
 	padding: 6px 12px 30px 12px;
+	line-height: 1.4em;
 }
 
 .tooltip-parent:hover .tooltip{
