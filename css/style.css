@@ -6,7 +6,7 @@ body{
 }
 
 header{
-	padding-bottom: 12px;
+	padding-bottom: 1px;
 	width: 80%;
 	margin: 0 auto;
 	background: white;
@@ -38,7 +38,7 @@ section{
 	 margin: 0 auto;
 	 text-align: left;
 	 background: white;
-   padding: 12px 24px 12px 24px;
+	 padding: 5px 24px 0px;
 
 }
 
@@ -49,10 +49,9 @@ section{
 
 footer{
 	text-align: right;
-  margin: 0 auto;
-  background: white;
-  height: 54px;
-
+  	margin: 40px auto 0;
+  	background: white;
+  	height: 54px;
 	color: grey;
 }
 
